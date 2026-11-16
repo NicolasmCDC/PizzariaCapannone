@@ -1,0 +1,48 @@
+==================================================
+       PIZZARIA CAPANNONE - SISTEMA JAVA
+==================================================
+[OK] Autenticação do gestor
+[OK] Autenticação do atendente
+[OK] Herança de UsuarioSistema
+[OK] Atendente recebe rotina de checklist
+Tarefa finalizada: Conferir limpeza do salão
+[OK] Finalização de tarefa atualiza status
+Atendente Lucas Silva executando atividade: Atendimento
+[OK] Atendente executa atividade
+[OK] Pesquisa de item por código/descrição
+[OK] Estoque crítico detectado
+[OK] Atualização de quantidade
+Pedido de compra emitido para fornecedor 12.345.678/0001-90. Itens vinculados: 2
+  Repor: Queijo (atual 8, ideal 12)
+[OK] Fornecedor mantém itens fornecidos
+[OK] Pedido aceita primeiro item
+[OK] Pedido aceita segundo item
+[OK] Cálculo do montante total
+Lançamento de venda registrado: R$ 159.70
+[OK] Pedido registra lançamento
+Pagamento de R$ 159.70 processado via Cartão.
+[OK] Pagamento processado
+[OK] Pedido associa transação de pagamento
+Documento fiscal emitido. Chave: 5c4350a3476c444bbfbfed7b9302efb0
+[OK] Documento fiscal emitido
+[OK] Pedido associa documento fiscal
+Consolidação diária (2026-11-16): 1 pedido(s), total R$ 159.70
+Gestor Mariana Costa acessou o painel administrativo.
+Relatórios disponíveis: 2
+Relatório solicitado. Critério: vendas
+Consolidação diária (2026-11-16): 1 pedido(s), total R$ 159.70
+Relatório solicitado. Critério: estoque
+Estoque cadastrado:
+- Farinha: 35 (ideal 10)
+- Queijo: 8 (ideal 12) [CRÍTICO]
+
+[OK] Gestor mantém relatórios
+[OK] Remoção de item recalcula total
+[OK] Pedido permanece com composição mínima
+[OK] Validação impede estoque negativo
+[OK] Validação impede preço negativo
+[OK] Validação impede quantidade zero
+[OK] Validação impede login vazio
+==================================================
+TESTES CONCLUÍDOS: 25/25 aprovados
+==================================================
